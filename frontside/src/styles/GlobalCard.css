@@ -1,0 +1,108 @@
+.globalcard {
+    max-width: 250px;
+    min-height: 400px;
+    margin: 1rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .globalcard-content {
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .globalcard-content-top img,
+  .globalcard-content-middle img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid white;
+  }
+  
+  .globalcard-content-middle {
+    position: relative;
+    margin-top: -45px;
+  }
+  
+  .globalcard-content-middle-info h4 {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+  }
+  
+  .globalcard-content-middle-info h6 {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  .globalcard-content-bottom {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 0;
+  }
+  
+  .globalcard-content-bottom-stat h6 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .globalcard-content-bottom-stat p {
+    font-size: 0.9rem;
+    color: #777;
+    margin: 0;
+  }
+  
+  .globalcard-content-bottom-gender {
+    padding: 0 2rem;
+  }
+  
+  .globalcard-content-bottom-gender .MuiSvgIcon-root {
+    font-size: 2rem;
+  }
+  
+  .globalcard-content-bottom-about {
+    padding: 1rem;
+  }
+  
+  .globalcard-content-bottom-about-story {
+    font-size: 0.9rem;
+    color: #333;
+    margin: 0.5rem 0;
+  }
+  
+  .globalcard-content-bottom-about-email,
+  .globalcard-content-bottom-about-website {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  .globalcard-content-bottom-about-website {
+    text-decoration: underline;
+  }
+  
+  .globalcard-content-bottom-navigate {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  
+  .globalcard-content-bottom-btn {
+    width: 100px;
+    height: 30px;
+    margin: auto;
+    border: none;
+    border-radius: 5px;
+    background-color: cornflowerblue;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .globalcard-content-bottom-btn:hover {
+    background-color: #0047ab;
+  }

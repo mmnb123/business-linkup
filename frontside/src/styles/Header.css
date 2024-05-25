@@ -1,0 +1,101 @@
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, #ff8a00, #da1b60);
+    width: 98vw;
+    max-width: 100%;
+    margin: 0 auto;
+    height: 10vh;
+    position: sticky;
+    top: 0;
+    z-index: 4;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Search Bar */
+  .header-center {
+    background-color: #fff;
+    border-radius: 20px;
+    flex: 0.8;
+    position: relative;
+    transition: background-color 0.3s ease;
+  }
+  
+  .header-center input {
+    background: transparent;
+    outline: none;
+    width: calc(100% - 40px);
+    padding: 12px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    color: #333;
+    transition: background-color 0.3s ease;
+  }
+  
+  .header-center input:focus {
+    background-color: #f9f9f9;
+  }
+  
+  .header-center .MuiSvgIcon-root {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    color: #999;
+    transition: color 0.3s ease;
+  }
+  
+  .header-centersearchclose {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #838282;
+    cursor: pointer;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  .header-centersearchclose:hover,
+  .header-center .MuiSvgIcon-root:hover {
+    color: #666;
+  }
+  
+  /* Search Results */
+  .header-searchusers {
+    margin-top: 5px;
+    position: absolute;
+    background: #000000;
+    width: calc(100% - 40px);
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  /* Left Section */
+  .header-left {
+    display: flex;
+  }
+  
+  .header-left .active {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .header-leftAvatar {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .header-leftAvatar h4 {
+    color: #fff;
+    margin-left: 10px;
+  }
+  
+  .header-leftAvatar:hover h4 {
+    color: #eee;
+  }
+  

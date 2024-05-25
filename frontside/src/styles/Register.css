@@ -1,0 +1,134 @@
+/* Main container */
+.register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0; /* Light background color */
+  }
+  
+  /* Registration container */
+  .register-container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  /* Header */
+  .register-header {
+    font-size: 24px;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Subheader */
+  .register-subheader {
+    font-size: 16px;
+    text-align: center;
+    color: #666;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+  }
+  
+  /* Form inputs */
+  .register-dataforminput {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    font-size: 16px;
+    color: #333;
+    transition: background-color 0.3s ease;
+  }
+  
+  .register-dataforminput:focus {
+    outline: none;
+    background-color: #e0e0e0; /* Light gray background on focus */
+  }
+  
+  /* Show/hide password button */
+  .register-password-container {
+    position: relative;
+  }
+  
+  /* Show/hide password button */
+  .register-showpass {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    background-color: #4e4ac8;
+    padding: 8px;
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+  }
+  .register-password-container1 {
+    position: relative;
+  }
+  
+  /* Show/hide password button */
+  .register-showcfpass {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    background-color: #4e4ac8;
+    padding: 8px;
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  /* Select field */
+  .register-dataformselect {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    font-size: 16px;
+    color: #333;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Submit button */
+  .register-dataformbtn {
+    background-color: #4e4ac8;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .register-dataformbtn:hover {
+    background-color: #615dfa;
+  }
+  
+  /* Small text */
+  .register-small {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  /* Link */
+  .register-small a {
+    color: #4e4ac8;
+    text-decoration: none;
+  }
+  
+  .register-small a:hover {
+    text-decoration: underline;
+  }
+  
